@@ -4,3 +4,41 @@ h1 {
   text-align: center;
   font-family: "Lucida Grande", sans-serif;
 }
+
+#kepalairas1 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+
+#kepalairas2 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+
+#kepalairas3 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+
+#kepalairas4 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+  
+#kepalairas5 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+  
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0, .6);
+}
+
+p {
+  color: rgb(0, 0, 0, .8);
+}
+
+#hatterszin {
+  background-color: rgb(113, 232, 149);
+}
