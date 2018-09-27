@@ -1,9 +1,18 @@
 h1 {
   font-size: 36px;
   color: rgba(0, 0, 0, .8);
-  text-align: center;
-  font-family: "Lucida Grande", sans-serif;
 }
+
+ h1, figcaption {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+figcaption {
+  font-size: 11px;
+}
+
+
 
 #kepalairas1 {
   text-align: center;
@@ -23,7 +32,8 @@ h1 {
 #kepalairas4 {
   text-align: center;
   color: rgb(0, 0, 0, .6);
-}
+}0
+jj
   
 #kepalairas5 {
   text-align: center;
@@ -41,4 +51,23 @@ p {
 
 #hatterszin {
   background-color: rgb(113, 232, 149);
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+article {
+  max-width: 700px;
+  padding: 10px;
+  border: 2px solid red;
 }
