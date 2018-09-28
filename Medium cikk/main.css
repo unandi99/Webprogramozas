@@ -69,5 +69,13 @@ body {
 article {
   max-width: 700px;
   padding: 10px;
-  border: 2px solid red;
+  margin: 0 auto;
+}
+
+p {
+  color: rgba(0, 0, 0, .8);
+  font-family: Georgia, Cambria, "Rimes New Roman", Times, serif;
+  font-size: 21px;
+  letter-spacing: -.003em;
+  line-height: 1.58;
 }
