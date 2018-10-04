@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <title>Pozícionálás</title>
+    <meta charset="utf-8">
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        right: 0;
+      }
+
+      #box-01 {
+        background-color: red;
+        z-index: 4;
+      }
+      #box-02 {
+        background-color: yellow;
+        width: 200px;
+        height: 200%;
+        /*position: relative;
+        top: -10px;
+        bottom: 10px;
+        left: 10px;*/
+        z-index: 3;
+      }
+      #box-03 {
+        background-color: yellowgreen;
+      }
+      #box-04 {
+        background-color: palevioletred;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="box-01" class="box">#box-01</div>
+    <div id="box-02" class="box">#box-02</div>
+    <div id="box-03" class="box">#box-03</div>
+    <div id="box-04" class="box">#box-04</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar dolor ut turpis lobortis, eu aliquet purus convallis. Aliquam vitae quam mi. Vivamus finibus odio non mi fermentum egestas. Etiam hendrerit viverra tortor condimentum consectetur. Donec sapien tortor, hendrerit tincidunt pretium at, feugiat eu tellus. Curabitur posuere augue quis dui sagittis, non semper sem vulputate. Suspendisse laoreet efficitur metus id lobortis. Curabitur semper congue sem, id scelerisque leo fermentum vel.</p>
+  </body>
+</html>

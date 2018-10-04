@@ -4,27 +4,66 @@
     <title Elrendezés (layout) - pozícionálás egy weblapon></title>
     <meta charset="utf-8">
     <style>
-
-      body {
+       /* Alap vagy "light" css reset*/
+      * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+        font-size: 100%;
       }
 
-      p,a {
-        width: 50%;
+      li {
+        margin-left: 20px;
+      }
+
+   /*  p,a {
+        width: 3%;
         padding: 40px;
         border: 3px solid #c74f78;
         margin: 30px;
         display: block;
       }
 
+      .elso {
+        visibility: hidden;
+      }*/
+
+      /*div {
+        float: left;
+        display: inline-block;
+      }*/
+
+      #box-01 {
+        background-color: hsla(60, 100%, 60%, .85);
+       /* width: 150px;*/
+        width: 50%;
+        display: inline-block;
+      }
+
+      #box-02 {
+        background-color: hsla(84, 84%, 56%, .85);
+        width: 50%;
+       /* padding: 25px;
+        border: 25px solid black;
+        margin: 0px;
+        box-sizing: border-box;*/
+        display: inline-block;
+      }
     </style>
   </head>
 
   <body>
+    <!--<p>Szöveg</p>
     <p>Szöveg</p>
-    <p>Szöveg</p>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+    <a href="#" class="elso">Link</a>
+    <a href="#">Link</a>-->
+
+    <div id="box-01">#box-01</div><!--
+    --><div id="box-02">#box-02</div>
+    <!--<ul>
+      <li>1</li>
+      <li>1</li>
+      <li>1</li>
+    </ul>-->
   </body>
 </html>
