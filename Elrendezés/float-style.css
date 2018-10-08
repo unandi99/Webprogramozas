@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
