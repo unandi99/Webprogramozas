@@ -1,0 +1,22 @@
+
+.package {
+  float: left;
+  background-color: #eee;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  width: 29.33%;
+}
+
+.content {
+  padding: 10px;
+  background-color: #888;
+  clear: both;
+  margin-top: 75px;
+}
+
+.packages::after {
+  content: "";
+  clear: both;
+  display: block;
+}
