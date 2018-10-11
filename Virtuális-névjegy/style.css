@@ -1,0 +1,60 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .6);
+  width: 480px;
+  max-width: calc(100vw -10px);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .8) 10px 10px 60px;
+
+}
+
+.head, .content {
+  background-color: hsla(150, 100%, 50%, .4);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.profile-image, .name-headline, .about, .links {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://wallpapertag.com/wallpaper/full/0/8/3/143199-nature-background-hd-1920x1080-for-samsung.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  background-color: #666;
+  padding: 1px;
+}
+
+img:hover {
+  border-radius: 0;
+}
+
+.content {
+  border-top: 1px solid rgba(0, 0, 0, .65);
+}
+
+
