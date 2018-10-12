@@ -17,7 +17,7 @@
 }
 
 .head, .content {
-  background-color: hsla(150, 100%, 50%, .4);
+  /*background-color: hsla(150, 100%, 50%, .4);*/
   width: 90%;
   margin: 0 auto;
 }
@@ -27,7 +27,7 @@
 }
 
 .profile-image, .name-headline, .about, .links {
-  background-color: hsla(300, 100%, 50%, .4);
+  /*background-color: hsla(300, 100%, 50%, .4);*/
 }
 
 body {
@@ -47,14 +47,60 @@ img {
   border-radius: 50%;
   background-color: #666;
   padding: 1px;
+  /*transition: border-radius .5s;*/
+  transition: all .3s ease-in-out;
+  filter: grayscale(50%);
 }
 
 img:hover {
-  border-radius: 0;
+  /*border-radius: 0;*/
+  transform: scale(1.1);
+  filter: grayscale(20%);
 }
 
 .content {
   border-top: 1px solid rgba(0, 0, 0, .65);
 }
 
+.profile-image {
+  margin-top: -60px;
+}
 
+li {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.head, .about {
+  margin-bottom: 5%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+.name-headline p {
+  text-align: center;
+}
