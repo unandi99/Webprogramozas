@@ -10,7 +10,7 @@
 .profile-card {
   background-color: hsla(0, 0%, 100%, .6);
   width: 480px;
-  max-width: calc(100vw -10px);
+  max-width: calc(100vw - 10px);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, .8) 10px 10px 60px;
 
@@ -103,4 +103,8 @@ p {
 
 .name-headline p {
   text-align: center;
+}
+
+i {
+  color: rgba(77, 77, 77, 1);
 }
