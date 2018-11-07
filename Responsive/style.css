@@ -58,7 +58,7 @@ table {
 /* Segítő színek */
 
 
-.header-color {
+/*.header-color {
   background-color: rgba(255, 248, 53, .3);
 }
 
@@ -68,6 +68,10 @@ table {
 
 .article-color {
   background-color: rgba(255, 0, 0, .3);
+}*/
+
+* {
+  box-sizing: border-box;
 }
 
 
@@ -93,10 +97,76 @@ header p {
   color: #8c8e9b;
 }
 
+/*
+main {
+  width: 50vw;
+}
+*/
+
+/* --- Layout style --- */
+
+.main-header {
+  text-align: center;
+  padding: 1.25rem; /* 20/16 = 1.25 */
+  color: #fff;
+  background-color: #42444e;
+}
+
+.post {
+  width: 95%;
+  margin: 0 auto 1rem;
+  padding: 0.3125rem; /* 5 / 16 = 0.3125 */
+}
+
 .picture {
   width: 100%;
 }
 
-main {
-  width: 50vw;
+/* Harry Roberts, Single-direction margin declarations */
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr
+img,
+.main-header, .primary-content{
+    margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid #8c8e9b;
+  color: #8c8e9b;
+  border-radius: 10px;
+  padding: 0 5px;
+  margin: 5px;
+  width: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+  border: 3px solid #b60e63;
+}
+
+.load {
+  display: block;
+  text-align: center;
+  padding: 0.625rem; /* 10/16 = 0.625*/
+  font-size: 1.25rem;
+  color: #8c8e9b;
+}
+
+a {
+  color: #e5127d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b60e63;
+}
+
+@media (max-width: 420px){
+  * {
+    color: red;
+  }
+
 }
