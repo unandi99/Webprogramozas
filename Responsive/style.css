@@ -164,9 +164,31 @@ a:hover {
   color: #b60e63;
 }
 
-@media (max-width: 420px){
-  * {
-    color: red;
+/* --- media beállítások --- */
+@media (min-width: 768px){
+
+  .main-header{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 33.33%;
   }
 
+  .primary-content {
+    float: right;
+    width: 66.6%;
+/*    max-width: 800px;*/
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-header {
+    width: 20%;
+  }
+
+  .primary-content {
+    float: none;
+    position: absolute;
+    left: 20%;
+  }
 }
